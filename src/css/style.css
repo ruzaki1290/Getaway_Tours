@@ -1,7 +1,38 @@
-* {
+body {
     background-color: aqua;
+    padding-top: 20px;
 }
 
-h1 {
+header {
     text-align: center;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
 }
