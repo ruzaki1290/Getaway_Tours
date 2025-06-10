@@ -1,6 +1,7 @@
 body {
     background-color: aqua;
     padding-top: 20px;
+    margin: 0%;
 }
 
 header {
@@ -35,4 +36,28 @@ a:hover {
 li {
     display: inline;
     margin-right: 100px;
+}
+
+.hero-section {
+    height: 640px;
+    background: url(../img/hero_image_2.png) center/cover no-repeat;
+}
+
+.destinations-section {
+    height: 300px;
+    background-color: blue;
+}
+
+.travel-section {
+    height: 300px;
+    background-color: green;
+}
+
+footer {
+    height: 300px;
+    background-color: blueviolet;
+}
+
+footer p {
+    margin: 0%;
 }
