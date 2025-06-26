@@ -76,8 +76,12 @@ li {
 /* ===== DESTINATIONS ===== >> */
 
 .destinations-section {
-    height: 400px;
-    /* background-color: blue; */
+    /* height: 400px; */ /* this property was commented out to avoid element wrapping - divs were moving to next sections when screen size was reduced. */
+    padding: 50px 0;
+}
+
+.dest-container {
+    text-align: center; /* centers all divs inside this container */
 }
 
 .dest-box {
@@ -85,16 +89,17 @@ li {
     height: 200px;
     /* hides the text */
     /* font-size: 0px; */
-    text-align: center;
-    /* centers the text inside the box element on vertical axis  */
+    text-align: center; /* centers the text inside the box element on vertical axis */
     line-height: 200px; 
     background: grey;
     border-radius: 20px;
     display: inline-block;
-    margin: 100px 0px 0px 120px;
+    margin-right: 75px;
 }
 
-
+.dest-box:last-child {
+    margin-right: 0;
+}
 
 /* ===== TRAVEL ===== >> */
 
